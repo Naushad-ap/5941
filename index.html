@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>H&amp;M Test Page</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="script.js"> </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="main-wrap">
+    <h1>H&amp;M Test Page</h1>
+
+    <h2>CSS Responsive Button</h2>
+
+    <button class="btn" aria-label="After clicking on button item will be deleted">Delete</button>
+    <p>Note: Button will be flexible based on content and in mobile view width will be 100% (Below 568px screen width)
+    </p>
+
+    <h2>Search Dropdown</h2>
+
+    <div class="dropdown">
+      <input class="search-box" type="text" placeholder="Search.." id="search-box" onkeyup="filterFunction()">
+      <i class="icons material-icons close-dropdown hidden"  title="Close">close</i>
+      <button class="icons material-icons search-button" title="Search">search</button>
+      <ul id="dropdown-menu" class="dropdown-content"></ul>
+    </div>  
+  <div class="history-container">
+      <table class="search-history">
+        <thead>
+          <tr>
+            <th class="align-left"><h2>Search History</h2></th>
+            <th class="align-right"><a href="#" class="clear-all-history">Clear search history</a></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+  </div>
+    <article> 
+  <h3>*1 Full Name</h3>
+  <p>NOUSHAD AP</p>
+  
+  <h3>*2 How would you describe the difference between HTML, CSS, and Javascript?</h3>
+  
+  <p>HTML to create the actual content of the page, this means in HTML we can define the basic structure and the contents of a website. HTML allows you to put images, text, videos, forms and other pieces of content together into the webpage.</p>
+  <p>A CSS file contains the styling of the page. It allows you to change colors, positioning and more. It is kind of like the design of the building itself. CSS is used to control presentation, formatting, and layout.</p>
+  <p>JavaScript is programming language designed to make web development easier and more attractive. JavaScript is the text-based programming language used both on the client-side and server-side that allows you to create responsive, interactive elements for web pages, enhancing the user experience</p>
+  
+  <h3>*3 How would you briefly describe frontend to someone who has no experience?</h3>
+  <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly.</p>
+  <p>The objective of front-end design is to ensure that when the users open up the site they see the information in a format that is easy to read and relevant. Users nowadays use a large variety of devices with varying screen sizes and resolutions thus forcing the designer to take into consideration these aspects when designing the site. They need to ensure that their site comes up correctly in different browsers (cross-browser), different operating systems (cross-platform) and different devices (cross-device).</p>
+  <p>Front-end developer should closely work with UX designer to meet good user experience in front-end.</p>
+  
+
+  
+  <h3>*4 Why is semantically correct HTML important?</h3>
+  <p>Semantic HTML is really important for SEO, Accessibility and cross-browser compatibility.</p>
+  <p>To implement an accessible website, semantic structural is most important. semantic HTML is the key starting point toward good accessibility practices, mainly when a screen reader or any sort of assistive device scans a web page, it gets information about the Document Object Model (DOM), or the HTML structure of the page. No styles or JavaScript will be read by a screen reader. So its really important to develop a structure with semantic HTML tags. </p>
+ <p>Browsers interact with semantic elements with their own style and behaviors. "Valid HTML" is important for compatibility. It points to accessibility and web standards. The site will emphasize you about the semantic markup to ensure cross browser accessibility.</p>
+ <p>Importance of semantic HTML evolved dramatically in SEO to fulfill Google's mission. Along with all SEO tips and tricks, content should be equipped with correct tags maintaining a clear hierarchy and architecture. This made it impossible for search engines to identify the correct web page content</p>
+ <p>Below is an example of Semantic basic HTML structure</p>
+ <p>
+ <pre>
+ <code> 
+&lt;header> 
+	&lt;nav>Header Nav links&lt;/nav>
+&lt;/header>
+&lt;main>
+	&lt;h1>Main Heading&lt;/h1>
+	&lt;aside>Left &lt;/aside>
+	&lt;section>Right&lt;/section>
+        &lt;article>Bottom&lt;/article>
+&lt;/main>
+
+&lt;footer>
+&lt;nav>Footer Nav links&lt;/nav>
+&lt;/footer>
+ </code>
+ </pre>
+ </p>
+  </article>
+  </section>
+
+
+
+</body>
+
+</html>
