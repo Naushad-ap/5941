@@ -108,6 +108,11 @@ p {
 	 button.search-button { width: auto;}
 	 
 	 div.history-container {padding: 0;}
+	 
+	 td.align-right span {
+		padding-right: 30px;
+		display: block;
+	}
 }
 
 .icons {
